@@ -16,8 +16,9 @@
     [super viewDidAppear:animated];
     
     PayPalViewController *ppVC = [PayPalViewController new];
-    [ppVC getUserAuthorizationForProfileSharing];
-
+    [self presentViewController:ppVC animated:YES completion:nil];
 }
+
+
 
 @end

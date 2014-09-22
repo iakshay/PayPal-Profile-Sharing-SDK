@@ -40,7 +40,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"viewDidLoad");
-    [self getUserAuthorizationForProfileSharing];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -52,7 +51,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     dispatch_once(&once, ^{
-        
+        [self getUserAuthorizationForProfileSharing];
     });
     NSLog(@"ViewDidAppear");
 }

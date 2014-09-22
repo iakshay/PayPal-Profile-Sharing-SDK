@@ -93,15 +93,50 @@ c00000000541F427600000000000000B6
 t1411334774
 s182
 
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalConfiguration.h
+c000000005404B4980000000000001744
+t1409594520
+s5956
+
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalFuturePaymentViewController.h
+c000000005404B4980000000000000811
+t1409594520
+s2065
+
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalMobile.h
+c000000005404B498000000000000107F
+t1409594520
+s4223
+
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalOAuthScopes.h
+c000000005404B4980000000000000367
+t1409594520
+s871
+
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalPayment.h
+c000000005404B4980000000000002729
+t1409594520
+s10025
+
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalPaymentViewController.h
+c000000005404B4980000000000000F6B
+t1409594520
+s3947
+
+N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalProfileSharingViewController.h
+c000000005404B49800000000000008B8
+t1409594520
+s2232
+
 N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.h
 c00000000541F5675000000000000011A
 t1411339893
 s282
 
 N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m
-c00000000541FD7480000000000000F3C
-t1411372872
-s3900
+c00000000542094860000000000000F37
+t1411421318
+s3895
 
 N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/LaunchPayPalSDK.LinkFileList
 c000000005420828300000000000000DE
@@ -109,8 +144,8 @@ t1411416707
 s222
 
 N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o
-t1411416707
-s65312
+t1411421320
+s66240
 
 N/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a
 c000000005404B4980000000001A684F4
@@ -161,16 +196,16 @@ t1411362332
 s282
 
 N/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/include/LaunchPayPalSDK/PayPalViewController.h
-t2
-s0
+t1411416707
+s282
 
 N/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a
-t2
-s0
+t1411416707
+s3771472
 
 N/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/usr/local/include/PayPalViewController.h
-t2
-s0
+t1411416707
+s282
 
 N/var/folders/dl/td2pnyfx1w30prw55q0j89hm392w_z/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LaunchPayPalSDK-Prefix-asdhqseriqeozaeylozbiqakfuny/LaunchPayPalSDK-Prefix.pch.pch
 t1411366631
@@ -186,7 +221,7 @@ s121008
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbaf5b603bad0b941^c0afc103bad0b941^---0#1#1#--18"Check dependencies36"601A1512-9041-404F-95D6-5DD6B33AE293-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies26e41708ccd0b941^ab202208ccd0b941^---0#1#1#--18"Check dependencies36"310FA72E-A8A8-4499-BA32-72283072DBDC-
 
 CCompileC build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/PayPalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433065674.090097
@@ -212,8 +247,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compil
 b262FC9A8-5606-4F71-8644-31059487F192
 
 CCompileC build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s433109507.792776
-e433109507.855646
+s433114120.135670
+e433114120.198330
 r1
 xCompileC
 xbuild/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o
@@ -231,8 +266,8 @@ d/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/Launch
 d/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalPayment.h
 d/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalPaymentViewController.h
 d/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalProfileSharingViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m214"CompileC build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o PayPalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera31dcb03bad0b941^200ddb03bad0b941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/roaurora/Documents/GitHub%20Projects/Personal%20Github/Hobby%20Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m0000000000000000^4435"CompileC build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o PayPalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-generated-files.hmap -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-own-target-headers.hmap -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-all-target-headers.hmap -iquote /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-project-headers.hmap -I/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/DerivedSources/i386 -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/DerivedSources -F/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator -include /var/folders/dl/td2pnyfx1w30prw55q0j89hm392w_z/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LaunchPayPalSDK-Prefix-esucufutkupqsvdbsythmyfbtiqo/LaunchPayPalSDK-Prefix.pch -MMD -MT dependencies -MF /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.d --serialize-diagnostics /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.dia -c /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m -o /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o36"CB28C0DF-B944-459E-A68F-EB343971869F-
-b8DAA194B-3FD9-49A1-9A43-E79C89517D00
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m214"CompileC build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o PayPalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6bf02208ccd0b941^6dc53208ccd0b941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/roaurora/Documents/GitHub%20Projects/Personal%20Github/Hobby%20Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m0000000000000000^4435"CompileC build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o PayPalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-generated-files.hmap -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-own-target-headers.hmap -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-all-target-headers.hmap -iquote /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/LaunchPayPalSDK-project-headers.hmap -I/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/DerivedSources/i386 -I/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/DerivedSources -F/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator -include /var/folders/dl/td2pnyfx1w30prw55q0j89hm392w_z/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LaunchPayPalSDK-Prefix-esucufutkupqsvdbsythmyfbtiqo/LaunchPayPalSDK-Prefix.pch -MMD -MT dependencies -MF /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.d --serialize-diagnostics /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.dia -c /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/PayPalViewController.m -o /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/PayPalViewController.o36"FEF66E8F-67B0-40AE-BCDC-3297863933FC-
+b92DDFEAA-A914-468E-B9FE-823C76DB0281
 
 CCpHeader PayPalViewController.h /Users/roaurora/Library/Developer/Xcode/DerivedData/DemoApp-dvtqkmjmuwkqklcjfpwggfwbqxsu/Build/Products/Debug-iphonesimulator/usr/local/include/PayPalViewController.h
 r0
@@ -290,8 +325,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Libtoo
 b262FC9A8-5606-4F71-8644-31059487F192
 
 CLibtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i386
-s433109507.856217
-e433109507.903161
+s433114120.199043
+e433114120.246689
 r1
 xLibtool
 x/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a
@@ -302,8 +337,8 @@ o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchUtil.o) has no symbols
 o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchRequest.o) has no symbols
 o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PayPalTouch.o) has no symbols
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Libtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i386174"Libtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i386d95adb03bad0b941^9737e703bad0b941^-1206"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchResponse.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchUtil.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchRequest.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PayPalTouch.o) has no symbols-0#0#1#--1291"Libtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i386    cd "/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK"    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator -L/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK -filelist /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/LaunchPayPalSDK.LinkFileList -ObjC -lPayPalMobile -framework UIKit -framework Foundation -o /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a36"C9D94524-283F-48D8-9DD7-2159F517D0CD-
-b8DAA194B-3FD9-49A1-9A43-E79C89517D00
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Libtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i386174"Libtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i3864b223308ccd0b941^ee273f08ccd0b941^-1206"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchResponse.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchUtil.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PPAppSwitchRequest.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK/libPayPalMobile.a(PayPalTouch.o) has no symbols-0#0#1#--1291"Libtool /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a normal i386    cd "/Users/roaurora/Documents/GitHub Projects/Personal Github/Hobby Projects/LaunchPayPalSDK/ProfileSharingSDK"    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator -L/Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK -filelist /Users/roaurora/Documents/GitHub\ Projects/Personal\ Github/Hobby\ Projects/LaunchPayPalSDK/ProfileSharingSDK/build/LaunchPayPalSDK.build/Debug-iphonesimulator/LaunchPayPalSDK.build/Objects-normal/i386/LaunchPayPalSDK.LinkFileList -ObjC -lPayPalMobile -framework UIKit -framework Foundation -o /Users/roaurora/Library/Developer/Xcode/DerivedData/LaunchPayPalSDK-dnnrdpxgoktmsmhblbfnnqzmqfvs/Build/Products/Debug-iphonesimulator/libLaunchPayPalSDK.a36"9ED60081-B6F4-4466-90F7-785F840E3AB3-
+b92DDFEAA-A914-468E-B9FE-823C76DB0281
 
 CPBXCp PayPalViewController.h /Users/roaurora/Library/Developer/Xcode/DerivedData/DemoApp-dvtqkmjmuwkqklcjfpwggfwbqxsu/Build/Products/Debug-iphonesimulator/include/LaunchPayPalSDK/PayPalViewController.h
 r0
