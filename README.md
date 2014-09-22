@@ -1,7 +1,7 @@
 #Profile Sharing SDK
 
 ###Project
-Use a custom SDK to open native PayPal login screen with the help of Profile Sharing use case by PayPal iOS SDK.
+Use a custom SDK to open native PayPal login screen with the help of Profile Sharing use case by [PayPal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK).
 
 ###Instructions for the reference implementation -
 
@@ -33,12 +33,12 @@ This authorization response is a NSDictionary object which can be seen in a debu
 
 ###Instructions for creating a universal binary
 
-1) Open LaunchPayPalSDK.xcodeproj in Xcode 5.1 or later. Enter your Sandbox Client ID in PayPalViewController.m
+1) Open LaunchPayPalSDK.xcodeproj in Xcode 5.1 or later. Enter your Sandbox Client ID in `PayPalViewController.m`
 
 2) Build the project Command (⌘) + R
 
-3) Under Products, right click on libLaunchPayPalSDK.a
+3) Under Products, right click on `libLaunchPayPalSDK.a`
 
-4) Link the libLaunchPayPalSDK.a and PayPalViewController.h to your reference implementation.
+4) Link the `libLaunchPayPalSDK.a` and `PayPalViewController.h` to your reference implementation.
 
 
