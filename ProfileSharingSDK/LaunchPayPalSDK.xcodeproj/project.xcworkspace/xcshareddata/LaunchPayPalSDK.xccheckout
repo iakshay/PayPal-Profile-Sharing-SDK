@@ -5,36 +5,48 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BFB6FFDC-B6F3-45B0-B546-346EEDC4EA0A</string>
+	<string>E737F655-190A-4840-9F1A-354A8900ED0F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LaunchPayPalSDK</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D98D2B73-2956-4216-9CF8-1973090A300E</key>
+		<key>430A9D80-6648-442B-B996-4145FF2FC4F6</key>
 		<string>https://github.com/rohanaurora/PayPal-Profile-Sharing-SDK.git</string>
+		<key>8038A083-A610-45E1-855B-5AB7E765BED5</key>
+		<string>https://github.com/rohanaurora/PayPal-Authorization-Code.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ProfileSharingSDK/LaunchPayPalSDK.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D98D2B73-2956-4216-9CF8-1973090A300E</key>
+		<key>430A9D80-6648-442B-B996-4145FF2FC4F6</key>
 		<string>../../..</string>
+		<key>8038A083-A610-45E1-855B-5AB7E765BED5</key>
+		<string>../../../../../PayPal-Authorization-Code</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rohanaurora/PayPal-Profile-Sharing-SDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D98D2B73-2956-4216-9CF8-1973090A300E</string>
+	<string>430A9D80-6648-442B-B996-4145FF2FC4F6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D98D2B73-2956-4216-9CF8-1973090A300E</string>
+			<string>430A9D80-6648-442B-B996-4145FF2FC4F6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LaunchPayPalSDK</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8038A083-A610-45E1-855B-5AB7E765BED5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PayPal-Authorization-Code</string>
 		</dict>
 	</array>
 </dict>

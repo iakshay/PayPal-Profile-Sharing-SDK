@@ -25,7 +25,7 @@
 @implementation PayPalViewController
 
 - (id) init {
-    static NSString const *kSandboxEnvironment = @"AWUrShDrIsirRkPOsFgGCYEX04f9DIsfmJryD0EglO-KlfA3Nkwg-CU4cmAr";
+    static NSString const *kSandboxEnvironment = #@"Enter your Sandbox Client ID"#;
     [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentSandbox : kSandboxEnvironment}];
     
     [PayPalMobile preconnectWithEnvironment:PayPalEnvironmentSandbox];
