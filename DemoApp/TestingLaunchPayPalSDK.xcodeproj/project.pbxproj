@@ -107,11 +107,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		939FDF4519CF8BF300B22D6F = {
+		93473DE419DDEEFC006717DB /* SDK and Headers */ = {
 			isa = PBXGroup;
 			children = (
 				93473DE219DDE8B9006717DB /* libLaunchPayPalSDK.a */,
 				939FDFA619CFE61900B22D6F /* PayPalViewController.h */,
+			);
+			name = "SDK and Headers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		93473DE519DDEF0A006717DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				939FDF6019CF8BF300B22D6F /* AppDelegate.h */,
+				939FDF6119CF8BF300B22D6F /* AppDelegate.m */,
+				939FDF8019CF8C2400B22D6F /* MainViewController.h */,
+				939FDF8119CF8C2400B22D6F /* MainViewController.m */,
+				93473DD319DDE287006717DB /* NextViewController.h */,
+				93473DD419DDE287006717DB /* NextViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		939FDF4519CF8BF300B22D6F = {
+			isa = PBXGroup;
+			children = (
 				939FDF5719CF8BF300B22D6F /* TestingLaunchPayPalSDK */,
 				939FDF7019CF8BF300B22D6F /* TestingLaunchPayPalSDKTests */,
 				939FDF5019CF8BF300B22D6F /* Frameworks */,
@@ -149,12 +170,8 @@
 		939FDF5719CF8BF300B22D6F /* TestingLaunchPayPalSDK */ = {
 			isa = PBXGroup;
 			children = (
-				939FDF6019CF8BF300B22D6F /* AppDelegate.h */,
-				939FDF6119CF8BF300B22D6F /* AppDelegate.m */,
-				939FDF8019CF8C2400B22D6F /* MainViewController.h */,
-				939FDF8119CF8C2400B22D6F /* MainViewController.m */,
-				93473DD319DDE287006717DB /* NextViewController.h */,
-				93473DD419DDE287006717DB /* NextViewController.m */,
+				93473DE419DDEEFC006717DB /* SDK and Headers */,
+				93473DE519DDEF0A006717DB /* Classes */,
 				939FDF5819CF8BF300B22D6F /* Supporting Files */,
 			);
 			path = TestingLaunchPayPalSDK;

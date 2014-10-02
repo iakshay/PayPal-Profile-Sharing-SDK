@@ -34,8 +34,9 @@
     PayPalViewController *ppVC = [PayPalViewController new];
     [ppVC getUserPayPalAuthorization:self completion:^(BOOL success) {
         NSLog(@"Success Value: %d", success);
+        
         if (success) {
-            [self goToCreateCartVC];
+            [self goToNextViewController];
         } else {
             NSLog(@"Fail. Reload PayPal Login.");
         }
@@ -43,12 +44,11 @@
 }
 
 
-// Transition to next View Controller
+// Transition to Next View Controller
 
--(void) goToCreateCartVC {
+-(void) goToNextViewController {
     
-    
-    NextViewController *CreateCartVC = [[NextViewController alloc] init];
+    NextViewController *nextVC = [[NextViewController alloc] init];
     
     CATransition *transition = [CATransition animation];
     transition.duration = 0.2;
@@ -56,7 +56,7 @@
     transition.subtype = kCATransitionFromRight;
     
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
-    [self.navigationController pushViewController:CreateCartVC animated:NO];
+    [self.navigationController pushViewController:nextVC animated:NO];
     
 }
 
