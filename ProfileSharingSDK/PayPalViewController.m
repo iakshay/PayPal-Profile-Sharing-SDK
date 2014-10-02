@@ -10,13 +10,11 @@
 #import <QuartzCore/QuartzCore.h>
 #import "PayPalMobile.h"
 
-@interface PayPalViewController () <PayPalProfileSharingDelegate> {
-    dispatch_once_t once;
-}
+@interface PayPalViewController () <PayPalProfileSharingDelegate>
 
 @property(nonatomic, strong, readwrite) PayPalConfiguration *payPalConfig;
 @property(nonatomic, strong, readwrite) NSString *environment;
-@property(nonatomic, strong, readwrite) NSString *resultText;
+@property(nonatomic, strong, readwrite) NSDictionary *resultText;
 @property(nonatomic, strong, readwrite) NSString *authCodeString;
 @property(nonatomic, strong, readwrite) NSString *code;
 
@@ -24,86 +22,110 @@
 
 @implementation PayPalViewController
 
-- (id) init {
-    static NSString const *kSandboxEnvironment = #@"Enter your Sandbox Client ID"#;
-    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentSandbox : kSandboxEnvironment}];
+
+#pragma mark - Method exposed in the headers (Method 1)
+
+-(void)getUserPayPalAuthorization:(UIViewController *)presentingViewController completion:(void (^)(BOOL success))handler {
     
+
+    // Preconnect to PayPal
+    
+    static NSString const *kSandboxEnvironment = @"AX1-ZxAZfMuB0a0UOIBHal9gct-Ju1qSlvsh1EB31WLJLoi0ByVWMoJRnQAZ";
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentSandbox : kSandboxEnvironment}];
     [PayPalMobile preconnectWithEnvironment:PayPalEnvironmentSandbox];
     NSLog(@"Preconnected to PayPal. Success.");
-
-    return self;
-}
-
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"viewDidLoad");
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"viewWillAppear");
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    dispatch_once(&once, ^{
-        [self getUserAuthorizationForProfileSharing];
-    });
-    NSLog(@"ViewDidAppear");
-}
-
-
-#pragma mark - Authorize Profile Sharing
-
-- (void)getUserAuthorizationForProfileSharing {
+    
+    
+    // Start profile sharing
     
     self.payPalConfig = [[PayPalConfiguration alloc] init];
     self.payPalConfig.acceptCreditCards = YES;
     self.payPalConfig.languageOrLocale = @"en";
-    self.payPalConfig.merchantName = @"Anonymous Merchant";
+    self.payPalConfig.merchantName = @"TestEcnCheckout";
     self.payPalConfig.merchantPrivacyPolicyURL = [NSURL URLWithString:@"https://www.paypal.com/webapps/mpp/ua/privacy-full"];
     self.payPalConfig.merchantUserAgreementURL = [NSURL URLWithString:@"https://www.paypal.com/webapps/mpp/ua/useragreement-full"];
     self.payPalConfig.languageOrLocale = [NSLocale preferredLanguages][0];
     self.payPalConfig.payPalShippingAddressOption = PayPalShippingAddressOptionPayPal;
-
-    NSSet *scopeValues = [NSSet setWithArray:@[kPayPalOAuth2ScopeEmail, kPayPalOAuth2ScopeAddress, kPayPalOAuth2ScopeOpenId, kPayPalOAuth2ScopePhone]];
+    
+    NSSet *scopeValues = [NSSet setWithArray:@[kPayPalOAuth2ScopeEmail,
+                                               kPayPalOAuth2ScopeAddress,
+                                               kPayPalOAuth2ScopeOpenId,
+                                               kPayPalOAuth2ScopePhone,
+                                               ]];
     
     PayPalProfileSharingViewController *profileSharingPaymentViewController = [[PayPalProfileSharingViewController alloc] initWithScopeValues:scopeValues configuration:self.payPalConfig delegate:self];
+    NSLog(@"Scopes set. Opening PayPal Login");
+    
+    
+    // Open PayPal's login screen
+    
+    UIWindow *keyWindow= [[UIApplication sharedApplication] keyWindow];
+    [keyWindow addSubview: profileSharingPaymentViewController.view];
     
     [self presentViewController:profileSharingPaymentViewController animated:YES completion:nil];
+    
+    //      To avoid 'View is not in the window hierarchy' error
+    //      Delegates fail upon using this:
+    //     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:profileSharingPaymentViewController
+    //                                                                                  animated:YES
+    //                                                                                completion:nil];
+    
 }
 
 
-#pragma mark PayPalProfileSharingDelegate methods
 
-- (void)payPalProfileSharingViewController:(PayPalProfileSharingViewController *)profileSharingViewController 
+#pragma mark Get AuthCode (Method 2)
+
+- (void)payPalProfileSharingViewController:(PayPalProfileSharingViewController *)profileSharingViewController
              userDidLogInWithAuthorization:(NSDictionary *)profileSharingAuthorization {
     
     NSLog(@"PayPal Profile Sharing Authorization Success!");
-    self.resultText = [profileSharingAuthorization description];
+    self.resultText = profileSharingAuthorization;
+    self.authCodeString = [self.resultText valueForKeyPath:@"response.code"];
+    NSLog(@"Here is your auth code - \n\n%@\n",self.authCodeString);
     
-    [self sendProfileSharingAuthorizationToServer:profileSharingAuthorization];
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+#pragma mark Login Status (Method 3)
+
+-(void) getLoginStatus {
+    
+    // To be used in Handler
+    // Check output from from network call
+    NSString *intercept = [self sendAuthCode];
+    
+    if ([intercept isEqual: @"success"]) {
+        NSLog(@" ____________________________ SUCCESS ________________________");
+    }
+    else {
+        NSLog(@" ____________________________ FAIL ___________________________");
+    }
+
+}
+
+
+
+// Network call to get success keyword
+
+-(NSString *) sendAuthCode {
+
+    // This is a network call using self.authCodeString
+    // For simplicity I am hard coding the return value to success.
+    
+    NSString *statusString = @"success";
+    
+    return statusString;
+    
+}
+
+
+// PayPalProfileSharingDelegate methods
 
 - (void)userDidCancelPayPalProfileSharingViewController:(PayPalProfileSharingViewController *)profileSharingViewController {
     NSLog(@"PayPal Profile Sharing Authorization Canceled");
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-
-
-- (void)sendProfileSharingAuthorizationToServer:(NSDictionary *)authorization {
-
-    NSLog(@"Here is your authorization  %@:", authorization);
-    NSDictionary *getAuthCodeDictionary = [authorization valueForKeyPath:@"response.code"];
-    self.authCodeString = [NSString stringWithFormat:@"%@", getAuthCodeDictionary];
-}
 
 
 @end

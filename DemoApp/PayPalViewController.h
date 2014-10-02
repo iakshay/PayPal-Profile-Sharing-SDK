@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PayPalViewController : UIViewController 
+@interface PayPalViewController : UIViewController
 
-- (void)getUserAuthorizationForProfileSharing;
-
+-(void)getUserPayPalAuthorization:(UIViewController *)presentingViewController completion:(void (^)(BOOL success))completionBlock;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "NextViewController.h"
 #import "PayPalViewController.h"
 
 @implementation MainViewController
@@ -15,10 +16,48 @@
     
     [super viewDidAppear:animated];
     
-    PayPalViewController *ppVC = [PayPalViewController new];
-    [self presentViewController:ppVC animated:YES completion:nil];
+    UIButton* testButn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [testButn setFrame:CGRectMake(130, 195, 70, 45)];
+    [testButn setImage:[UIImage imageNamed:@"BuyButton"] forState:UIControlStateNormal];
+    [testButn setImage:[UIImage imageNamed:@"BuyButton"]   forState:UIControlStateSelected];
+    [testButn addTarget:self action:@selector(openPayPalViewController) forControlEvents:UIControlEventTouchDown];
+    [self.view addSubview:testButn];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self setTitle:@"Main View Controller"];
+    
 }
 
 
+-(void) openPayPalViewController {
+    
+    PayPalViewController *ppVC = [PayPalViewController new];
+    [ppVC getUserPayPalAuthorization:self completion:^(BOOL success) {
+        NSLog(@"Success Value: %d", success);
+        if (success) {
+            [self goToCreateCartVC];
+        } else {
+            NSLog(@"Fail. Reload PayPal Login.");
+        }
+    }];
+}
+
+
+// Transition to next View Controller
+
+-(void) goToCreateCartVC {
+    
+    
+    NextViewController *CreateCartVC = [[NextViewController alloc] init];
+    
+    CATransition *transition = [CATransition animation];
+    transition.duration = 0.2;
+    transition.type = kCATransitionPush;
+    transition.subtype = kCATransitionFromRight;
+    
+    [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
+    [self.navigationController pushViewController:CreateCartVC animated:NO];
+    
+}
 
 @end
