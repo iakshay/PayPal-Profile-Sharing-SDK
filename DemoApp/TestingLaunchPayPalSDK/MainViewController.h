@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PayPalViewController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <LoginStatusDelegate>
 
 @end

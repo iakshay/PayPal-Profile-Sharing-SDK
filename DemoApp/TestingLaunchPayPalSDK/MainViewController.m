@@ -8,9 +8,8 @@
 
 #import "MainViewController.h"
 #import "NextViewController.h"
-#import "PayPalViewController.h"
 
-@implementation MainViewController
+@implementation MainViewController 
 
 -(void) viewDidAppear:(BOOL)animated {
     
@@ -26,38 +25,32 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self setTitle:@"Main View Controller"];
     
+    
 }
 
-
+// Present PayPal login screen from SDK
 -(void) openPayPalViewController {
     
     PayPalViewController *ppVC = [PayPalViewController new];
-    [ppVC getUserPayPalAuthorization:self completion:^(BOOL success) {
-        NSLog(@"Success Value: %d", success);
-        
-        if (success) {
-            [self goToNextViewController];
-        } else {
-            NSLog(@"Fail. Reload PayPal Login.");
-        }
-    }];
+    [ppVC setDelegate:self];
+    [self presentViewController:ppVC animated:YES completion:nil];
+
+}
+
+
+// Use delegate protocol
+-(void)success {
+    
+    NSLog(@"Login successful.");
+    [self goToNextViewController];
 }
 
 
 // Transition to Next View Controller
-
 -(void) goToNextViewController {
     
     NextViewController *nextVC = [[NextViewController alloc] init];
-    
-    CATransition *transition = [CATransition animation];
-    transition.duration = 0.2;
-    transition.type = kCATransitionPush;
-    transition.subtype = kCATransitionFromRight;
-    
-    [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
-    [self.navigationController pushViewController:nextVC animated:NO];
-    
+    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 @end

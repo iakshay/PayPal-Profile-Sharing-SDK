@@ -1,6 +1,5 @@
 //
 //  PayPalViewController.h
-//  NativeApp
 //
 //  Created by Rohan Aurora on 9/13/14.
 //  Copyright (c) 2014 Rohan Aurora. All rights reserved.
@@ -8,9 +7,17 @@
 
 #import <UIKit/UIKit.h>
 
+// this protocol acts as a listener when the login is successful (upon generation of auth code)
+
+@protocol LoginStatusDelegate <NSObject>
+@required
+
+-(void)success;
+
+@end
 
 @interface PayPalViewController : UIViewController
 
--(void)getUserPayPalAuthorization:(UIViewController *)presentingViewController completion:(void (^)(BOOL success))completionBlock;
+@property(nonatomic, weak) id <LoginStatusDelegate> delegate;
 
 @end

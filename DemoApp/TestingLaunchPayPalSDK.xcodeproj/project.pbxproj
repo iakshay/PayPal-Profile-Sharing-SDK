@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9323741F19DFA4D4009E2CDD /* libLaunchPayPalSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323741E19DFA4D4009E2CDD /* libLaunchPayPalSDK.a */; };
+		9323742219DFA690009E2CDD /* loginwithpaypalbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9323742119DFA690009E2CDD /* loginwithpaypalbutton.png */; };
 		93473DD519DDE287006717DB /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93473DD419DDE287006717DB /* NextViewController.m */; };
-		93473DD719DDE29C006717DB /* BuyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 93473DD619DDE29C006717DB /* BuyButton.png */; };
-		93473DE319DDE8B9006717DB /* libLaunchPayPalSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93473DE219DDE8B9006717DB /* libLaunchPayPalSDK.a */; };
 		939FDF5219CF8BF300B22D6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939FDF5119CF8BF300B22D6F /* Foundation.framework */; };
 		939FDF5419CF8BF300B22D6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939FDF5319CF8BF300B22D6F /* CoreGraphics.framework */; };
 		939FDF5619CF8BF300B22D6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939FDF5519CF8BF300B22D6F /* UIKit.framework */; };
@@ -43,10 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9323741E19DFA4D4009E2CDD /* libLaunchPayPalSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLaunchPayPalSDK.a; sourceTree = "<group>"; };
+		9323742019DFA4E2009E2CDD /* PayPalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalViewController.h; sourceTree = "<group>"; };
+		9323742119DFA690009E2CDD /* loginwithpaypalbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginwithpaypalbutton.png; sourceTree = "<group>"; };
 		93473DD319DDE287006717DB /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		93473DD419DDE287006717DB /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
-		93473DD619DDE29C006717DB /* BuyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuyButton.png; sourceTree = "<group>"; };
-		93473DE219DDE8B9006717DB /* libLaunchPayPalSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLaunchPayPalSDK.a; sourceTree = "<group>"; };
 		939FDF4E19CF8BF300B22D6F /* TestingLaunchPayPalSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingLaunchPayPalSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939FDF5119CF8BF300B22D6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		939FDF5319CF8BF300B22D6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,7 +73,6 @@
 		939FDF9519CF8F0900B22D6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		939FDF9719CF8F1000B22D6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		939FDF9919CF8F1500B22D6F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		939FDFA619CFE61900B22D6F /* PayPalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				939FDF8E19CF8EEA00B22D6F /* MessageUI.framework in Frameworks */,
 				939FDF9219CF8EF600B22D6F /* MobileCoreServices.framework in Frameworks */,
 				939FDF9019CF8EF000B22D6F /* SystemConfiguration.framework in Frameworks */,
-				93473DE319DDE8B9006717DB /* libLaunchPayPalSDK.a in Frameworks */,
+				9323741F19DFA4D4009E2CDD /* libLaunchPayPalSDK.a in Frameworks */,
 				939FDF5419CF8BF300B22D6F /* CoreGraphics.framework in Frameworks */,
 				939FDF5619CF8BF300B22D6F /* UIKit.framework in Frameworks */,
 				939FDF5219CF8BF300B22D6F /* Foundation.framework in Frameworks */,
@@ -110,8 +110,8 @@
 		93473DE419DDEEFC006717DB /* SDK and Headers */ = {
 			isa = PBXGroup;
 			children = (
-				93473DE219DDE8B9006717DB /* libLaunchPayPalSDK.a */,
-				939FDFA619CFE61900B22D6F /* PayPalViewController.h */,
+				9323741E19DFA4D4009E2CDD /* libLaunchPayPalSDK.a */,
+				9323742019DFA4E2009E2CDD /* PayPalViewController.h */,
 			);
 			name = "SDK and Headers";
 			path = ..;
@@ -180,9 +180,9 @@
 		939FDF5819CF8BF300B22D6F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				93473DD619DDE29C006717DB /* BuyButton.png */,
 				939FDF6319CF8BF300B22D6F /* Images.xcassets */,
 				939FDF5919CF8BF300B22D6F /* TestingLaunchPayPalSDK-Info.plist */,
+				9323742119DFA690009E2CDD /* loginwithpaypalbutton.png */,
 				939FDF5A19CF8BF300B22D6F /* InfoPlist.strings */,
 				939FDF5D19CF8BF300B22D6F /* main.m */,
 				939FDF5F19CF8BF300B22D6F /* TestingLaunchPayPalSDK-Prefix.pch */,
@@ -283,7 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93473DD719DDE29C006717DB /* BuyButton.png in Resources */,
+				9323742219DFA690009E2CDD /* loginwithpaypalbutton.png in Resources */,
 				939FDF5C19CF8BF300B22D6F /* InfoPlist.strings in Resources */,
 				939FDF6419CF8BF300B22D6F /* Images.xcassets in Resources */,
 			);
@@ -432,7 +432,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-lc++",
@@ -456,6 +456,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-lc++",
