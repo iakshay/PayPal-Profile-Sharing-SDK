@@ -7,9 +7,7 @@ Use a custom SDK to open native PayPal login screen with the help of Profile Sha
 
 1. Smooth transitioning to NextViewController after successful login. This animation clearly indicates the issue -
 
-2. Use a completion handler (instead of delegation) to update the current view with *success* message. I have asked the same question on StackOverFlow, a simplified version - 
-
-http://stackoverflow.com/questions/26165235/update-completion-handler-outside-declared-method
+2. Use a completion handler (instead of delegation) to update the current view with *success* message. I have asked the same question on StackOverFlow, with a simplified example - http://stackoverflow.com/questions/26165235/update-completion-handler-outside-declared-method
 
 3. A suggestion of eliminating the `PayPalViewController` from SDK, and replace it by a class derived from `NSObject`. Ideally, the `getUserPayPalAuthorization:completion:` method should not belong to a view controller class, but to some other class — such as a general utility class (derived from `NSObject`).
 
