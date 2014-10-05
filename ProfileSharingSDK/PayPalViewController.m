@@ -80,7 +80,10 @@
              userDidLogInWithAuthorization:(NSDictionary *)profileSharingAuthorization {
     
     NSLog(@"PayPal Profile Sharing Authorization Success!");
+    
     self.resultText = profileSharingAuthorization;
+    NSLog(@"Response:  \n%@",self.resultText);
+    
     self.authCodeString = [self.resultText valueForKeyPath:@"response.code"];
     NSLog(@"\nHere is your auth code - \n%@\n",self.authCodeString);
 
