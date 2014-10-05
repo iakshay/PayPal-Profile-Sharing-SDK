@@ -82,9 +82,9 @@
     NSLog(@"PayPal Profile Sharing Authorization Success!");
     self.resultText = profileSharingAuthorization;
     self.authCodeString = [self.resultText valueForKeyPath:@"response.code"];
-    NSLog(@"Here is your auth code - \n\n%@\n",self.authCodeString);
+    NSLog(@"\nHere is your auth code - \n%@\n",self.authCodeString);
 
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
     [self sendAuthCode];
     
 }
@@ -100,7 +100,7 @@
     
     NSString *statusString = @"success";
     
-    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+ //   [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
     [delegate success];
 
     return statusString;

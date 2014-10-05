@@ -16,9 +16,9 @@
     [super viewDidAppear:animated];
     
     UIButton* testButn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [testButn setFrame:CGRectMake(130, 195, 70, 45)];
-    [testButn setImage:[UIImage imageNamed:@"BuyButton"] forState:UIControlStateNormal];
-    [testButn setImage:[UIImage imageNamed:@"BuyButton"]   forState:UIControlStateSelected];
+    [testButn setFrame:CGRectMake(90, 205, 150, 55)];
+    [testButn setImage:[UIImage imageNamed:@"loginwithpaypalbutton"] forState:UIControlStateNormal];
+    [testButn setImage:[UIImage imageNamed:@"loginwithpaypalbutton"]   forState:UIControlStateSelected];
     [testButn addTarget:self action:@selector(openPayPalViewController) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:testButn];
     

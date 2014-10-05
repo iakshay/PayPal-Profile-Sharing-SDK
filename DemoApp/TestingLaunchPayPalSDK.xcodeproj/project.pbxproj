@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9323741F19DFA4D4009E2CDD /* libLaunchPayPalSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323741E19DFA4D4009E2CDD /* libLaunchPayPalSDK.a */; };
 		9323742219DFA690009E2CDD /* loginwithpaypalbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9323742119DFA690009E2CDD /* loginwithpaypalbutton.png */; };
+		9323742C19DFDCC1009E2CDD /* libLaunchPayPalSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9323742B19DFDCC1009E2CDD /* libLaunchPayPalSDK.a */; };
 		93473DD519DDE287006717DB /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93473DD419DDE287006717DB /* NextViewController.m */; };
 		939FDF5219CF8BF300B22D6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939FDF5119CF8BF300B22D6F /* Foundation.framework */; };
 		939FDF5419CF8BF300B22D6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939FDF5319CF8BF300B22D6F /* CoreGraphics.framework */; };
@@ -43,9 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9323741E19DFA4D4009E2CDD /* libLaunchPayPalSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLaunchPayPalSDK.a; sourceTree = "<group>"; };
 		9323742019DFA4E2009E2CDD /* PayPalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalViewController.h; sourceTree = "<group>"; };
 		9323742119DFA690009E2CDD /* loginwithpaypalbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginwithpaypalbutton.png; sourceTree = "<group>"; };
+		9323742B19DFDCC1009E2CDD /* libLaunchPayPalSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLaunchPayPalSDK.a; sourceTree = "<group>"; };
 		93473DD319DDE287006717DB /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		93473DD419DDE287006717DB /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		939FDF4E19CF8BF300B22D6F /* TestingLaunchPayPalSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingLaunchPayPalSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +87,7 @@
 				939FDF8E19CF8EEA00B22D6F /* MessageUI.framework in Frameworks */,
 				939FDF9219CF8EF600B22D6F /* MobileCoreServices.framework in Frameworks */,
 				939FDF9019CF8EF000B22D6F /* SystemConfiguration.framework in Frameworks */,
-				9323741F19DFA4D4009E2CDD /* libLaunchPayPalSDK.a in Frameworks */,
+				9323742C19DFDCC1009E2CDD /* libLaunchPayPalSDK.a in Frameworks */,
 				939FDF5419CF8BF300B22D6F /* CoreGraphics.framework in Frameworks */,
 				939FDF5619CF8BF300B22D6F /* UIKit.framework in Frameworks */,
 				939FDF5219CF8BF300B22D6F /* Foundation.framework in Frameworks */,
@@ -110,7 +110,6 @@
 		93473DE419DDEEFC006717DB /* SDK and Headers */ = {
 			isa = PBXGroup;
 			children = (
-				9323741E19DFA4D4009E2CDD /* libLaunchPayPalSDK.a */,
 				9323742019DFA4E2009E2CDD /* PayPalViewController.h */,
 			);
 			name = "SDK and Headers";
@@ -133,6 +132,7 @@
 		939FDF4519CF8BF300B22D6F = {
 			isa = PBXGroup;
 			children = (
+				9323742B19DFDCC1009E2CDD /* libLaunchPayPalSDK.a */,
 				939FDF5719CF8BF300B22D6F /* TestingLaunchPayPalSDK */,
 				939FDF7019CF8BF300B22D6F /* TestingLaunchPayPalSDKTests */,
 				939FDF5019CF8BF300B22D6F /* Frameworks */,

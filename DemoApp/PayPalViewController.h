@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-// this protocol acts as a listener when the login is successful (upon generation of auth code)
+// This protocol acts as a listener when the login is successful (upon generation of auth code)
 
 @protocol LoginStatusDelegate <NSObject>
 @required
@@ -18,6 +18,6 @@
 
 @interface PayPalViewController : UIViewController
 
-@property(nonatomic, weak) id <LoginStatusDelegate> delegate;
+@property (nonatomic, weak) id <LoginStatusDelegate> delegate;
 
 @end
