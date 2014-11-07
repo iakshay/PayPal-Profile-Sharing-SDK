@@ -5,7 +5,7 @@ Use a custom SDK to open native PayPal login screen with the help of Profile Sha
 
 ###Current Issues
 
-1. Smooth transition to NextViewController after successful login. This animation clearly indicates the issue -
+1. There is no smooth transition to `NextViewController` after successful login. Refer to the animation below.
 
 2. Use a completion handler (instead of delegation) to update the current view with *success* message. I have asked the same question on StackOverFlow, with a simplified example - http://stackoverflow.com/questions/26165235/update-completion-handler-outside-declared-method
 
